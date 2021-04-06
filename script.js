@@ -1,4 +1,10 @@
+// document.addEventListener("mousemove", (e)=>{
+//   console.log(`Mouse X: ${e.clientX}, Mouse Y: ${e.clientY}`)
+// }); //Triggers mouse position
 
+document.addEventListener("click" , ()=>{
+  window.alert(`Click Submit Button`);
+});
 
 let targetNumber = Math.trunc(Math.random() * 100);
 let yourResult = document.getElementById("display-result");
