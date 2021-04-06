@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Guess Number</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Guess Number</h1>
+        <br>
+        <h4>Between 1-100</h4>
+    </header>
+    <main>
+        <div class="input">
+            <input 
+            id="userinput" 
+            type="number" 
+            >
+            <button type="submit" id="submit-button" >Submit</button>
+        </div>
+        <div class="display">
+            <h3>Result</h3>
+            <p id="display-result">Hint</p>
+            
+            <p id="display-try" 
+            class="tryNumber" >Number Of Tries 
+            <span id="numberOfTries">0</span></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
